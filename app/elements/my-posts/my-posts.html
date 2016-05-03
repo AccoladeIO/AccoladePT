@@ -1,0 +1,169 @@
+<!--
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/paper-toggle-button/paper-toggle-button.html">
+<link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/iron-icons/social-icons.html">
+<link rel="import" href="../../bower_components/iron-icons/editor-icons.html">
+<link rel="import" href="../../bower_components/iron-icons/communication-icons.html">
+<link rel="import" href="../../bower_components/iron-label/iron-label.html">
+<link rel="import" href="../../bower_components/iron-collapse/iron-collapse.html">
+
+@hero hero.svg
+-->
+<dom-module id="my-posts">
+
+    <template>
+
+
+        <iron-ajax
+                auto
+                url="/api/posts"
+                handle-as="json"
+                last-response="{{response}}"></iron-ajax>
+
+        <template is="dom-repeat" items="{{response}}">
+
+            <style>
+                paper-card.rate {@apply(--layout-horizontal);}
+                paper-card.rate-inner {@apply(--layout-horizontal);}
+
+                .rate{
+                    margin-top: 20px;
+                    margin-right: 20px;
+                    width: 410px;
+                }
+
+                .rate-inner{
+                    width: 410px;
+                    float: left;
+                }
+
+                .rate-avatar {
+                    margin: 10px;
+                    width: 102px;
+                    height: 102px;
+                    border-radius: 100px;
+                    -webkit-border-radius: 100px;
+                    -moz-border-radius: 100px;
+                    background-size: cover;
+                }
+
+                .rate-accolade_icon {
+                    margin: 10px;
+                    width: 102px;
+                    height: 102px;
+                    border-radius: 100px;
+                    -webkit-border-radius: 100px;
+                    -moz-border-radius: 100px;
+                    background-size: cover;
+                }
+
+                .rate-content {
+                    @apply(--layout-flex);
+                    float: left;
+                }
+
+                .rate-header { @apply(--paper-font-headline); }
+                .rate-name { color: var(--paper-grey-600); margin: 10px 0; }
+
+                .truncate {
+                    width: 250px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+
+                .card-actions{
+                    @apply(--layout-horizontal);
+                    float: right;
+                }
+
+                .card-actions-left{
+                    float: left;
+                }
+
+                paper-icon-button.msg{
+                    color: grey;
+                }
+
+                paper-icon-button.msg:hover{
+                    color: royalblue;
+                }
+
+                paper-icon-button.msg[toggles][active] {
+                    color: royalblue;
+                }
+
+                paper-icon-button.fav{
+                    color: grey;
+                }
+
+                paper-icon-button.fav:hover{
+                    color: red;
+                }
+
+                paper-icon-button.fav[toggles][active] {
+                    color: red;
+                }
+
+                .collapse-content {
+
+                }
+
+            </style>
+
+            <div>
+                <paper-card class="rate">
+                    <div class="rate-accolade_icon" style="background: url('{{item.accolade_icon}}')"></div>
+                    <div class="rate-content">
+                        <div class="card-content">
+                            <div class="rate-header">{{item.accolade_name}}</div>
+                            <div class="rate-name">From {{item.username}}</div>
+                            <div class="truncate">{{item.accolade_tag}}</div>
+                        </div>
+                        <div class="card-actions">
+                            <paper-icon-button toggles id$="bt_readmore" on-tap="toggle" class="msg" icon="communication:chat">Read More</paper-icon-button>
+                            <paper-icon-button toggles class="fav" icon="favorite"></paper-icon-button>
+                            <paper-toggle-button> Public</paper-toggle-button>
+                        </div>
+                    </div>
+                </paper-card>
+                <iron-collapse id$="collapse{{item.uid}}">
+                    <paper-card class="rate-inner">
+                        <div class="rate-avatar" style="background: url('{{item.avatar}}')"></div>
+                        <div class="rate-content">
+                            <div class="card-content">
+                                <div class="collapse-content">
+                                    {{item.text}}
+                                </div>
+                            </div>
+                        </div>
+                    </paper-card>
+                 </iron-collapse>
+            </div>
+        </template>
+    </template>
+
+</dom-module>
+
+<script>
+    Polymer({
+        is: 'my-posts',
+
+        toggle: function (event, detail, sender) {
+            var id = event.model.item.uid;
+            var selector = '#collapse' + id;
+            this.$$(selector).toggle();
+        }
+
+    });
+
+</script>

@@ -1,6 +1,5 @@
 # AccoladePT
 
-# Getting Going
 ***
 **Requirements:**
 * Go install the latest version for [Golang](https://golang.org/)

@@ -10,7 +10,7 @@
 * Download Bower, you will need this to pull Polymer components on demand [Bower.io](http://bower.io/)
 * If you are wondering how you install Polymer, well this repo already contains Polymer 1.0 and its dependencies.
 
-***
+___
 **Why Go?**
 Well why not? I am not a programmer, so if I am forced to program the language needs to be coherent and the fundamentals need to be transparent. Go is exactly that. It is readable, even by someone like me. Go is also modern, meaning it doesn't carry the baggage of 10 billion half built, half working libraries wrapped in libraries. It feels like a green field - one supported by Google.
 

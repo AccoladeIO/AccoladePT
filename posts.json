@@ -4,9 +4,9 @@
     "text" : "Have you heard about the Web Components revolution?",
     "username" : "Eric",
     "avatar" : "images/avatar-01.svg",
-    "accolade_name" : "Thanks!",
+    "accolade_name" : "Awsome job!",
     "accolade_tag" : "You earned some goodwill!",
-    "accolade_icon" : "/images/accolade-01.svg",
+    "accolade_icon" : "/images/accolade-02.svg",
     "favorite": false
   },
   {
@@ -24,46 +24,46 @@
     "text" : "So last year...",
     "username" : "Dimitri",
     "avatar" : "/images/avatar-03.svg",
-      "accolade_name" : "Thanks!",
+      "accolade_name" : "Great Job",
       "accolade_tag" : "You earned some goodwill!",
-      "accolade_icon" : "/images/accolade-01.svg",
+      "accolade_icon" : "/images/accolade-05.svg",
     "favorite": false
   },
   {
     "uid": 4,
     "text" : "Pretty sure I came up with that first.",
     "username" : "Ada",
-    "avatar" : "/images/avatar-07.svg",
-    "accolade_name" : "Thanks!",
+    "avatar" : "/images/avatar-04.svg",
+    "accolade_name" : "MVP",
     "accolade_tag" : "You earned on measure of goodwill",
-    "accolade_icon" : "/images/accolade-01.svg",
+    "accolade_icon" : "/images/accolade-04.svg",
     "favorite": true
   },
   {
     "uid": 5,
     "text" : "Yo, I heard you like components, so I put a component in your component.",
     "username" : "Grace",
-    "avatar" : "/images/avatar-08.svg",
-    "accolade_name" : "Thanks!",
+    "avatar" : "/images/avatar-05.svg",
+    "accolade_name" : "Great Job",
     "accolade_tag" : "You earned some goodwill!",
-    "accolade_icon" : "/images/accolade-01.svg",
+    "accolade_icon" : "/images/accolade-05.svg",
     "favorite": false
   },
   {
     "uid": 6,
     "text" : "Centralize, centrailize.",
     "username" : "John",
-    "avatar" : "/images/avatar-04.svg",
-    "accolade_name" : "Thanks!",
+    "avatar" : "/images/avatar-06.svg",
+    "accolade_name" : "Awsome job!",
     "accolade_tag" : "You earned some goodwill!",
-    "accolade_icon" : "/images/accolade-01.svg",
+    "accolade_icon" : "/images/accolade-02.svg",
     "favorite": true
   },
   {
     "uid": 7,
     "text" : "Has anyone seen my cat?",
     "username" : "Zelda",
-    "avatar" : "/images/avatar-06.svg",
+    "avatar" : "/images/avatar-07.svg",
     "accolade_name" : "Thanks!",
     "accolade_tag" : "You earned some goodwill!",
     "accolade_icon" : "/images/accolade-01.svg",
@@ -73,10 +73,170 @@
     "uid": 8,
     "text" : "Decentralize!",
     "username" : "Norbert",
-    "avatar" : "/images/avatar-05.svg",
+    "avatar" : "/images/avatar-08.svg",
+    "accolade_name" : "MVP",
+    "accolade_tag" : "You earned some goodwill!",
+    "accolade_icon" : "/images/accolade-04.svg",
+    "favorite": true
+  },
+  {
+    "uid": 9,
+    "text" : "Loving this Polymer thing.",
+    "username" : "Rob",
+    "avatar" : "images/avatar-09.svg",
+    "accolade_name" : "Best Performance",
+    "accolade_tag" : "You earned some goodwill!",
+    "accolade_icon" : "/images/accolade-03.svg",
+    "favorite": false
+  },
+  {
+    "uid": 10,
+    "text" : "Centralize, centrailize.",
+    "username" : "John",
+    "avatar" : "/images/avatar-10.svg",
+    "accolade_name" : "Awsome job!",
+    "accolade_tag" : "You earned some goodwill!",
+    "accolade_icon" : "/images/accolade-02.svg",
+    "favorite": true
+  },
+  {
+    "uid": 11,
+    "text" : "Have you heard about the Web Components revolution?",
+    "username" : "Eric",
+    "avatar" : "images/avatar-11.svg",
     "accolade_name" : "Thanks!",
     "accolade_tag" : "You earned some goodwill!",
     "accolade_icon" : "/images/accolade-01.svg",
+    "favorite": false
+  },
+  {
+    "uid": 12,
+    "text" : "So last year...",
+    "username" : "Dimitri",
+    "avatar" : "/images/avatar-12.svg",
+    "accolade_name" : "Awsome job!",
+    "accolade_tag" : "You earned some goodwill!",
+    "accolade_icon" : "/images/accolade-02.svg",
+    "favorite": false
+  },
+  {
+    "uid": 13,
+    "text" : "Loving this Polymer thing.",
+    "username" : "Rob",
+    "avatar" : "images/avatar-13.svg",
+    "accolade_name" : "Great Job",
+    "accolade_tag" : "You earned some goodwill!",
+    "accolade_icon" : "/images/accolade-05.svg",
+    "favorite": false
+  },
+  {
+    "uid": 14,
+    "text" : "Pretty sure I came up with that first.",
+    "username" : "Ada",
+    "avatar" : "/images/avatar-14.svg",
+    "accolade_name" : "Great Job",
+    "accolade_tag" : "You earned on measure of goodwill",
+    "accolade_icon" : "/images/accolade-05.svg",
+    "favorite": true
+  },
+  {
+    "uid": 15,
+    "text" : "Have you heard about the Web Components revolution?",
+    "username" : "Eric",
+    "avatar" : "images/avatar-15.svg",
+    "accolade_name" : "Thanks!",
+    "accolade_tag" : "You earned some goodwill!",
+    "accolade_icon" : "/images/accolade-01.svg",
+    "favorite": false
+  },
+  {
+    "uid": 16,
+    "text" : "Loving this Polymer thing.",
+    "username" : "Rob",
+    "avatar" : "images/avatar-16.svg",
+    "accolade_name" : "MVP",
+    "accolade_tag" : "You earned some goodwill!",
+    "accolade_icon" : "/images/accolade-04.svg",
+    "favorite": false
+  },
+  {
+    "uid": 17,
+    "text" : "So last year...",
+    "username" : "Dimitri",
+    "avatar" : "/images/avatar-03.svg",
+    "accolade_name" : "Thanks!",
+    "accolade_tag" : "You earned some goodwill!",
+    "accolade_icon" : "/images/accolade-01.svg",
+    "favorite": false
+  },
+  {
+    "uid": 18,
+    "text" : "Pretty sure I came up with that first.",
+    "username" : "Ada",
+    "avatar" : "/images/avatar-07.svg",
+    "accolade_name" : "Thanks!",
+    "accolade_tag" : "You earned on measure of goodwill",
+    "accolade_icon" : "/images/accolade-02.svg",
+    "favorite": true
+  },
+  {
+    "uid": 19,
+    "text" : "Yo, I heard you like components, so I put a component in your component.",
+    "username" : "Grace",
+    "avatar" : "/images/avatar-08.svg",
+    "accolade_name" : "Great Job",
+    "accolade_tag" : "You earned some goodwill!",
+    "accolade_icon" : "/images/accolade-05.svg",
+    "favorite": false
+  },
+  {
+    "uid": 20,
+    "text" : "Centralize, centrailize.",
+    "username" : "John",
+    "avatar" : "/images/avatar-04.svg",
+    "accolade_name" : "Thanks!",
+    "accolade_tag" : "You earned some goodwill!",
+    "accolade_icon" : "/images/accolade-01.svg",
+    "favorite": true
+  },
+  {
+    "uid": 21,
+    "text" : "Has anyone seen my cat?",
+    "username" : "Zelda",
+    "avatar" : "/images/avatar-06.svg",
+    "accolade_name" : "Best Performance",
+    "accolade_tag" : "You earned some goodwill!",
+    "accolade_icon" : "/images/accolade-03.svg",
+    "favorite": false
+  },
+  {
+    "uid": 22,
+    "text" : "Decentralize!",
+    "username" : "Norbert",
+    "avatar" : "/images/avatar-05.svg",
+    "accolade_name" : "Awsome job!",
+    "accolade_tag" : "You earned some goodwill!",
+    "accolade_icon" : "/images/accolade-02.svg",
+    "favorite": true
+  },
+  {
+    "uid": 23,
+    "text" : "Loving this Polymer thing.",
+    "username" : "Rob",
+    "avatar" : "images/avatar-02.svg",
+    "accolade_name" : "Thanks!",
+    "accolade_tag" : "You earned some goodwill!",
+    "accolade_icon" : "/images/accolade-01.svg",
+    "favorite": false
+  },
+  {
+    "uid": 24,
+    "text" : "Centralize, centrailize.",
+    "username" : "John",
+    "avatar" : "/images/avatar-04.svg",
+    "accolade_name" : "Best Performance",
+    "accolade_tag" : "You earned some goodwill!",
+    "accolade_icon" : "/images/accolade-03.svg",
     "favorite": true
   }
 ]

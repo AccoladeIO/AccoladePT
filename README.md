@@ -18,5 +18,11 @@ Well why not? I am not a programmer, so if I am forced to program the language n
 **Why Polymer?**
 Again why not? I was looking at component frameworks and it came down to Google's Polymer and Facebook's React.js. Given that I think Facebook's UI/UX is rubbish, it makes sense to go with Google. Yes, Polymer is only bleeding edge compatible, but I don't care, especially for a prototype.
 
+***
+**Running AccoladePT.exe**
+* This executable contains two main Go packages. The Http Server and the API. 
+* When you run this .exe file go check localhost:8080 you will see the current application build.
+* Use this for front end testing. You monitor back-end errors via the terminal logs. 
+
 # Updates
 * [05/03/2016] - This repo is currently being used to store some very basic implementations for the purpose of a demonstration.

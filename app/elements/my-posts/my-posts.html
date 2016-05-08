@@ -38,32 +38,33 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 .rate{
                     margin-top: 20px;
                     margin-right: 20px;
-                    width: 410px;
+                    width: 367.52px;
                 }
 
                 .rate-inner{
-                    width: 410px;
+                    width: 367.52px;
                     float: left;
                 }
 
                 .rate-avatar {
                     margin: 10px;
-                    width: 102px;
-                    height: 102px;
-                    border-radius: 100px;
-                    -webkit-border-radius: 100px;
-                    -moz-border-radius: 100px;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 60px;
+                    -webkit-border-radius: 60px;
+                    -moz-border-radius: 60px;
                     background-size: cover;
                 }
 
                 .rate-accolade_icon {
                     margin: 10px;
-                    width: 102px;
-                    height: 102px;
-                    border-radius: 100px;
-                    -webkit-border-radius: 100px;
-                    -moz-border-radius: 100px;
+                    width: 62px;
+                    height: 62px;
+                    border-radius: 62px;
+                    -webkit-border-radius: 62px;
+                    -moz-border-radius: 62px;
                     background-size: cover;
+
                 }
 
                 .rate-content {
@@ -122,7 +123,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
             <div>
                 <paper-card class="rate">
-                    <div class="rate-accolade_icon" style="background: url('{{item.accolade_icon}}')"></div>
+                    <div class="rate-accolade_icon" style$="{{item.accolade_icon}}"></div>
                     <div class="rate-content">
                         <div class="card-content">
                             <div class="rate-header">{{item.accolade_name}}</div>
@@ -138,7 +139,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 </paper-card>
                 <iron-collapse id$="collapse{{item.uid}}">
                     <paper-card class="rate-inner">
-                        <div class="rate-avatar" style="background: url('{{item.avatar}}')"></div>
+                        <div class="rate-avatar" style$="{{item.avatar}}"></div>
                         <div class="rate-content">
                             <div class="card-content">
                                 <div class="collapse-content">

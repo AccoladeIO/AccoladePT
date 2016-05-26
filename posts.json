@@ -1,21 +1,21 @@
 [
   {
     "uid": 1,
-    "text" : "Have you heard about the Web Components revolution?",
+    "text" : "Thanks for smashing out those widgets today, you saved the day.",
     "username" : "Eric",
     "avatar" : "background-image: url('/images/avatar-01.svg')",
-    "accolade_name" : "Awsome job!",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_name" : "Awesome job!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-02.svg')",
     "favorite": false
   },
   {
     "uid": 2,
-    "text" : "Loving this Polymer thing.",
+    "text" : "Really appreciated the help.",
     "username" : "Rob",
     "avatar" : "background-image: url('/images/avatar-02.svg')",
     "accolade_name" : "Thanks!",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-01.svg')",
     "favorite": false
   },
@@ -25,7 +25,7 @@
     "username" : "Dimitri",
     "avatar" : "background-image: url('/images/avatar-03.svg')",
       "accolade_name" : "Great Job",
-      "accolade_tag" : "You earned some goodwill!",
+      "accolade_tag" : "You earned an achievement",
       "accolade_icon" : "background-image: url('/images/accolade-05.svg')",
     "favorite": false
   },
@@ -35,7 +35,7 @@
     "username" : "Ada",
     "avatar" : "background-image: url('/images/avatar-04.svg')",
     "accolade_name" : "MVP",
-    "accolade_tag" : "You earned on measure of goodwill",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-04.svg')",
     "favorite": true
   },
@@ -45,7 +45,7 @@
     "username" : "Grace",
     "avatar" : "background-image: url('/images/avatar-05.svg')",
     "accolade_name" : "Great Job",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-05.svg')",
     "favorite": false
   },
@@ -54,8 +54,8 @@
     "text" : "Centralize, centrailize.",
     "username" : "John",
     "avatar" : "background-image: url('/images/avatar-06.svg')",
-    "accolade_name" : "Awsome job!",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_name" : "Awesome job!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-02.svg')",
     "favorite": true
   },
@@ -65,7 +65,7 @@
     "username" : "Zelda",
     "avatar" : "background-image: url('/images/avatar-08.svg')",
     "accolade_name" : "Thanks!",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-01.svg')",
     "favorite": false
   },
@@ -75,7 +75,7 @@
     "username" : "Norbert",
     "avatar" : "background-image: url('/images/avatar-08.svg')",
     "accolade_name" : "MVP",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-04.svg')",
     "favorite": true
   },
@@ -85,7 +85,7 @@
     "username" : "Rob",
     "avatar" : "background-image: url('/images/avatar-09.svg')",
     "accolade_name" : "Best Performance",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-03.svg')",
     "favorite": false
   },
@@ -94,8 +94,8 @@
     "text" : "Centralize, centrailize.",
     "username" : "John",
     "avatar" : "background-image: url('/images/avatar-10.svg')",
-    "accolade_name" : "Awsome job!",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_name" : "Awesome job!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-02.svg')",
     "favorite": true
   },
@@ -105,7 +105,7 @@
     "username" : "Eric",
     "avatar" : "background-image: url('/images/avatar-11.svg')",
     "accolade_name" : "Thanks!",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-01.svg')",
     "favorite": false
   },
@@ -114,8 +114,8 @@
     "text" : "So last year...",
     "username" : "Dimitri",
     "avatar" : "background-image: url('/images/avatar-12.svg')",
-    "accolade_name" : "Awsome job!",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_name" : "Awesome job!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-02.svg')",
     "favorite": false
   },
@@ -125,7 +125,7 @@
     "username" : "Rob",
     "avatar" : "background-image: url('/images/avatar-13.svg')",
     "accolade_name" : "Great Job",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-05.svg')",
     "favorite": false
   },
@@ -135,7 +135,7 @@
     "username" : "Ada",
     "avatar" : "background-image: url('/images/avatar-14.svg')",
     "accolade_name" : "Great Job",
-    "accolade_tag" : "You earned on measure of goodwill",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-05.svg')",
     "favorite": true
   },
@@ -145,7 +145,7 @@
     "username" : "Eric",
     "avatar" : "background-image: url('/images/avatar-15.svg')",
     "accolade_name" : "Thanks!",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-01.svg')",
     "favorite": false
   },
@@ -155,7 +155,7 @@
     "username" : "Rob",
     "avatar" : "background-image: url('/images/avatar-16.svg')",
     "accolade_name" : "MVP",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-04.svg')",
     "favorite": false
   },
@@ -165,7 +165,7 @@
     "username" : "Dimitri",
     "avatar" : "background-image: url('/images/avatar-03.svg')",
     "accolade_name" : "Thanks!",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-01.svg')",
     "favorite": false
   },
@@ -175,7 +175,7 @@
     "username" : "Ada",
     "avatar" : "background-image: url('/images/avatar-07.svg')",
     "accolade_name" : "Thanks!",
-    "accolade_tag" : "You earned on measure of goodwill",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-02.svg')",
     "favorite": true
   },
@@ -185,7 +185,7 @@
     "username" : "Grace",
     "avatar" : "background-image: url('/images/avatar-08.svg')",
     "accolade_name" : "Great Job",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-05.svg')",
     "favorite": false
   },
@@ -195,7 +195,7 @@
     "username" : "John",
     "avatar" : "background-image: url('/images/avatar-04.svg')",
     "accolade_name" : "Thanks!",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-01.svg')",
     "favorite": true
   },
@@ -205,7 +205,7 @@
     "username" : "Zelda",
     "avatar" : "background-image: url('/images/avatar-06.svg')",
     "accolade_name" : "Best Performance",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-03.svg')",
     "favorite": false
   },
@@ -214,8 +214,8 @@
     "text" : "Decentralize!",
     "username" : "Norbert",
     "avatar" : "background-image: url('/images/avatar-05.svg')",
-    "accolade_name" : "Awsome job!",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_name" : "Awesome job!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-02.svg')",
     "favorite": true
   },
@@ -225,7 +225,7 @@
     "username" : "Rob",
     "avatar" : "background-image: url('/images/avatar-02.svg')",
     "accolade_name" : "Thanks!",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-01.svg')",
     "favorite": false
   },
@@ -235,7 +235,7 @@
     "username" : "John",
     "avatar" : "background-image: url('/images/avatar-04.svg')",
     "accolade_name" : "Best Performance",
-    "accolade_tag" : "You earned some goodwill!",
+    "accolade_tag" : "You earned an achievement",
     "accolade_icon" : "background-image: url('/images/accolade-03.svg')",
     "favorite": true
   }

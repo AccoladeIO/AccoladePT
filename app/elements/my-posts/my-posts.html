@@ -15,9 +15,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../../bower_components/iron-icons/communication-icons.html">
 <link rel="import" href="../../bower_components/iron-label/iron-label.html">
 <link rel="import" href="../../bower_components/iron-collapse/iron-collapse.html">
+<link rel="import" href="../../bower_components/paper-tooltip/paper-tooltip.html">
 
-@hero hero.svg
--->
+
 <dom-module id="my-posts">
 
     <template>
@@ -36,18 +36,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 paper-card.rate-inner {@apply(--layout-horizontal);}
 
                 .rate{
-                    margin-top: 20px;
-                    margin-right: 20px;
-                    width: 367.52px;
+                    width: 98%;
+                    display: inline-block;
                 }
 
                 .rate-inner{
-                    width: 367.52px;
-                    float: left;
+                    width: 100%;
+                    min-width: 100px;
+
                 }
 
                 .rate-avatar {
-                    margin: 10px;
+                    margin: 20px;
                     width: 60px;
                     height: 60px;
                     border-radius: 60px;
@@ -57,26 +57,65 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 }
 
                 .rate-accolade_icon {
-                    margin: 10px;
-                    width: 62px;
-                    height: 62px;
-                    border-radius: 62px;
-                    -webkit-border-radius: 62px;
-                    -moz-border-radius: 62px;
+
+                    width: 100%;
+                    min-width: 100px;
+                    height: 200px;
                     background-size: cover;
 
                 }
 
                 .rate-content {
-                    @apply(--layout-flex);
-                    float: left;
+                    width: 100%;
+                    min-width: 100px;
                 }
 
-                .rate-header { @apply(--paper-font-headline); }
-                .rate-name { color: var(--paper-grey-600); margin: 10px 0; }
+                @media (max-width: 600px) {
+                    .container{
+                        width:100%;
+                        min-width: 100px;
+                        margin-top:10px;
+                    }
+                }
+
+                @media (min-width: 401px) and (max-width: 500px){
+                    .container{
+                        width:50%;
+                        min-width: 100px;
+                        margin-top:10px;
+                    }
+                }
+
+                @media (min-width: 501px) and (max-width: 780px){
+                    .container{
+                        width:50%;
+                        min-width: 100px;
+                        margin-top:10px;
+                    }
+                }
+
+                @media (min-width: 781px){
+                    .container{
+                        width:25%;
+                        min-width: 100px;
+                        margin-top:10px;
+                    }
+                }
+
+                .rate-header {
+                        @apply(--paper-font-headline);
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;}
+
+                }
+                .rate-name {
+                    color: var(--paper-grey-600);
+                    margin: 10px 0;
+                }
 
                 .truncate {
-                    width: 250px;
+                    width: 100%;
                     white-space: nowrap;
                     overflow: hidden;
                     text-overflow: ellipsis;
@@ -84,22 +123,20 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
                 .card-actions{
                     @apply(--layout-horizontal);
-                    float: right;
+                    float:right;
+
                 }
 
-                .card-actions-left{
-                    float: left;
-                }
 
-                paper-icon-button.msg{
+                paper-icon-button.chrome-reader-mode{
                     color: grey;
                 }
 
-                paper-icon-button.msg:hover{
+                paper-icon-button.chrome-reader-mode:hover{
                     color: royalblue;
                 }
 
-                paper-icon-button.msg[toggles][active] {
+                paper-icon-button.[toggles][active] {
                     color: royalblue;
                 }
 
@@ -121,19 +158,29 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
             </style>
 
-            <div>
+            <div class="container">
+
                 <paper-card class="rate">
-                    <div class="rate-accolade_icon" style$="{{item.accolade_icon}}"></div>
+
                     <div class="rate-content">
+                        <div class="rate-accolade_icon" style$="{{item.accolade_icon}}"></div>
                         <div class="card-content">
+
                             <div class="rate-header">{{item.accolade_name}}</div>
                             <div class="rate-name">From {{item.username}}</div>
                             <div class="truncate">{{item.accolade_tag}}</div>
                         </div>
                         <div class="card-actions">
-                            <paper-icon-button toggles id$="bt_readmore" on-tap="toggle" class="msg" icon="communication:chat">Read More</paper-icon-button>
-                            <paper-icon-button toggles class="fav" icon="favorite"></paper-icon-button>
-                            <paper-toggle-button> Public</paper-toggle-button>
+                            <div>
+                             <paper-icon-button toggles class="chrome-reader-mode" icon="chrome-reader-mode"></paper-icon-button>
+                              <paper-tooltip>Show Details</paper-tooltip>
+                            </div>
+                            <div>
+                                <paper-icon-button toggles class="fav" icon="favorite"></paper-icon-button>
+                               <paper-tooltip>Favourite</paper-tooltip>
+                            </div>
+                            <paper-toggle-button><paper-tooltip>Make Public</paper-tooltip></paper-toggle-button>
+
                         </div>
                     </div>
                 </paper-card>
